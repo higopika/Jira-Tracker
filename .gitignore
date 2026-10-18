@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables / secrets
+.env
+
+# Local defect database (regenerate with scripts/seed_db.py)
+data/*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
