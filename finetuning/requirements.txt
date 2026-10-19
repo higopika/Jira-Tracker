@@ -1,0 +1,13 @@
+# Extra packages needed only for the fine-tuning step in this folder.
+# Kept separate from the main project's requirements.txt because fine-tuning
+# is optional, run-on-your-own-hardware tooling, not something the FastAPI
+# app itself depends on.
+#
+# Install with:
+#   .venv\Scripts\python.exe -m pip install -r finetuning\requirements.txt
+#
+# Requires a CUDA-capable GPU with 8 to 12GB VRAM for the Qwen2.5-7B-Instruct
+# QLoRA fine-tune in finetune.py.
+unsloth
+trl
+datasets
